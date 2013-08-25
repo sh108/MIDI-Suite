@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4295DB3E17CA4470009937BE /* MIDICommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4295DB3A17CA4470009937BE /* MIDICommunication.m */; };
+		4295DB3F17CA4470009937BE /* MIDIDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4295DB3C17CA4470009937BE /* MIDIDeviceManager.m */; };
+		F2ECBF8E179C3FF2008BAF2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2ECBF8D179C3FF2008BAF2C /* Foundation.framework */; };
+		F2ECBFBA179C4053008BAF2C /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2ECBFB9179C4053008BAF2C /* CoreMIDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2ECBF88179C3FF2008BAF2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4295DB3917CA4470009937BE /* MIDICommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDICommunication.h; path = ../src/MIDICommunication.h; sourceTree = "<group>"; };
+		4295DB3A17CA4470009937BE /* MIDICommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDICommunication.m; path = ../src/MIDICommunication.m; sourceTree = "<group>"; };
+		4295DB3B17CA4470009937BE /* MIDIDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIDeviceManager.h; path = ../src/MIDIDeviceManager.h; sourceTree = "<group>"; };
+		4295DB3C17CA4470009937BE /* MIDIDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDIDeviceManager.m; path = ../src/MIDIDeviceManager.m; sourceTree = "<group>"; };
+		4295DB3D17CA4470009937BE /* MIDIEngineAssignNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIEngineAssignNumbers.h; path = ../src/MIDIEngineAssignNumbers.h; sourceTree = "<group>"; };
+		42C82EAC17B6BDB800CCFC2A /* MIDIEngine-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MIDIEngine-Prefix.pch"; path = "SupportingFiles/MIDIEngine-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		F2ECBF8A179C3FF2008BAF2C /* libMIDIEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMIDIEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2ECBF8D179C3FF2008BAF2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2ECBFB9179C4053008BAF2C /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2ECBF87179C3FF2008BAF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2ECBFBA179C4053008BAF2C /* CoreMIDI.framework in Frameworks */,
+				F2ECBF8E179C3FF2008BAF2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2ECBF81179C3FF2008BAF2C = {
+			isa = PBXGroup;
+			children = (
+				F2ECBFB8179C4025008BAF2C /* MIDIEngine */,
+				F2ECBF90179C3FF2008BAF2C /* Supporting Files */,
+				F2ECBF8C179C3FF2008BAF2C /* Frameworks */,
+				F2ECBF8B179C3FF2008BAF2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2ECBF8B179C3FF2008BAF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2ECBF8A179C3FF2008BAF2C /* libMIDIEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2ECBF8C179C3FF2008BAF2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2ECBF8D179C3FF2008BAF2C /* Foundation.framework */,
+				F2ECBFB9179C4053008BAF2C /* CoreMIDI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2ECBF90179C3FF2008BAF2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C82EAC17B6BDB800CCFC2A /* MIDIEngine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = MIDICommunication_iOS;
+			sourceTree = "<group>";
+		};
+		F2ECBFB8179C4025008BAF2C /* MIDIEngine */ = {
+			isa = PBXGroup;
+			children = (
+				4295DB3D17CA4470009937BE /* MIDIEngineAssignNumbers.h */,
+				4295DB3B17CA4470009937BE /* MIDIDeviceManager.h */,
+				4295DB3C17CA4470009937BE /* MIDIDeviceManager.m */,
+				4295DB3917CA4470009937BE /* MIDICommunication.h */,
+				4295DB3A17CA4470009937BE /* MIDICommunication.m */,
+			);
+			name = MIDIEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2ECBF89179C3FF2008BAF2C /* MIDIEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2ECBFAF179C3FF2008BAF2C /* Build configuration list for PBXNativeTarget "MIDIEngine" */;
+			buildPhases = (
+				F2ECBF86179C3FF2008BAF2C /* Sources */,
+				F2ECBF87179C3FF2008BAF2C /* Frameworks */,
+				F2ECBF88179C3FF2008BAF2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIDIEngine;
+			productName = MIDICommunication_iOS;
+			productReference = F2ECBF8A179C3FF2008BAF2C /* libMIDIEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2ECBF82179C3FF2008BAF2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sh108;
+			};
+			buildConfigurationList = F2ECBF85179C3FF2008BAF2C /* Build configuration list for PBXProject "MIDIEngine_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2ECBF81179C3FF2008BAF2C;
+			productRefGroup = F2ECBF8B179C3FF2008BAF2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2ECBF89179C3FF2008BAF2C /* MIDIEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2ECBF86179C3FF2008BAF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4295DB3E17CA4470009937BE /* MIDICommunication.m in Sources */,
+				4295DB3F17CA4470009937BE /* MIDIDeviceManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2ECBFAD179C3FF2008BAF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2ECBFAE179C3FF2008BAF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2ECBFB0179C3FF2008BAF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MIDIEngine_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SupportingFiles/MIDIEngine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F2ECBFB1179C3FF2008BAF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MIDIEngine_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SupportingFiles/MIDIEngine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2ECBF85179C3FF2008BAF2C /* Build configuration list for PBXProject "MIDIEngine_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2ECBFAD179C3FF2008BAF2C /* Debug */,
+				F2ECBFAE179C3FF2008BAF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2ECBFAF179C3FF2008BAF2C /* Build configuration list for PBXNativeTarget "MIDIEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2ECBFB0179C3FF2008BAF2C /* Debug */,
+				F2ECBFB1179C3FF2008BAF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2ECBF82179C3FF2008BAF2C /* Project object */;
+}

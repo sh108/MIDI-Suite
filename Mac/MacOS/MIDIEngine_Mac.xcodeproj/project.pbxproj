@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4295DB4517CA44A9009937BE /* MIDICommunication.h in Headers */ = {isa = PBXBuildFile; fileRef = 4295DB4017CA44A9009937BE /* MIDICommunication.h */; };
+		4295DB4617CA44A9009937BE /* MIDICommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4295DB4117CA44A9009937BE /* MIDICommunication.m */; };
+		4295DB4717CA44A9009937BE /* MIDIDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4295DB4217CA44A9009937BE /* MIDIDeviceManager.h */; };
+		4295DB4817CA44A9009937BE /* MIDIDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4295DB4317CA44A9009937BE /* MIDIDeviceManager.m */; };
+		4295DB4917CA44A9009937BE /* MIDIEngineAssignNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4295DB4417CA44A9009937BE /* MIDIEngineAssignNumbers.h */; };
+		42CEA37D17CA2E150016CF45 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A7A72C179BD25400F8AD41 /* Cocoa.framework */; };
+		42CEA38317CA2E150016CF45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42CEA38117CA2E150016CF45 /* InfoPlist.strings */; };
+		42CEA38617CA2E150016CF45 /* MIDIEngineTest_Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CEA38517CA2E150016CF45 /* MIDIEngineTest_Mac.m */; };
+		42CEA38C17CA33000016CF45 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CEA38B17CA33000016CF45 /* SenTestingKit.framework */; };
+		42CEA38D17CA37250016CF45 /* MIDIEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A7A729179BD25400F8AD41 /* MIDIEngine.framework */; };
+		F2A7A72D179BD25400F8AD41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A7A72C179BD25400F8AD41 /* Cocoa.framework */; };
+		F2A7A76B179BD4E200F8AD41 /* MIDIEngine_Mac-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F2A7A769179BD4E200F8AD41 /* MIDIEngine_Mac-Prefix.pch */; };
+		F2A7A76E179BD4ED00F8AD41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2A7A76C179BD4ED00F8AD41 /* InfoPlist.strings */; };
+		F2A7A770179BD62300F8AD41 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A7A76F179BD62300F8AD41 /* CoreMIDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4295DB4017CA44A9009937BE /* MIDICommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDICommunication.h; path = ../src/MIDICommunication.h; sourceTree = "<group>"; };
+		4295DB4117CA44A9009937BE /* MIDICommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDICommunication.m; path = ../src/MIDICommunication.m; sourceTree = "<group>"; };
+		4295DB4217CA44A9009937BE /* MIDIDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIDeviceManager.h; path = ../src/MIDIDeviceManager.h; sourceTree = "<group>"; };
+		4295DB4317CA44A9009937BE /* MIDIDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDIDeviceManager.m; path = ../src/MIDIDeviceManager.m; sourceTree = "<group>"; };
+		4295DB4417CA44A9009937BE /* MIDIEngineAssignNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIEngineAssignNumbers.h; path = ../src/MIDIEngineAssignNumbers.h; sourceTree = "<group>"; };
+		42CEA37A17CA2E150016CF45 /* MIDIEngineTest_Mac.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIDIEngineTest_Mac.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CEA38017CA2E150016CF45 /* MIDIEngineTest_Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIDIEngineTest_Mac-Info.plist"; sourceTree = "<group>"; };
+		42CEA38217CA2E150016CF45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42CEA38417CA2E150016CF45 /* MIDIEngineTest_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDIEngineTest_Mac.h; sourceTree = "<group>"; };
+		42CEA38517CA2E150016CF45 /* MIDIEngineTest_Mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIDIEngineTest_Mac.m; sourceTree = "<group>"; };
+		42CEA38717CA2E150016CF45 /* MIDIEngineTest_Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIDIEngineTest_Mac-Prefix.pch"; sourceTree = "<group>"; };
+		42CEA38B17CA33000016CF45 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F2A7A729179BD25400F8AD41 /* MIDIEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MIDIEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A7A72C179BD25400F8AD41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F2A7A72F179BD25400F8AD41 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F2A7A730179BD25400F8AD41 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F2A7A731179BD25400F8AD41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2A7A768179BD4E200F8AD41 /* MIDIEngine-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MIDIEngine-Info.plist"; path = "SupportingFiles/MIDIEngine-Info.plist"; sourceTree = "<group>"; };
+		F2A7A769179BD4E200F8AD41 /* MIDIEngine_Mac-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MIDIEngine_Mac-Prefix.pch"; path = "SupportingFiles/MIDIEngine_Mac-Prefix.pch"; sourceTree = "<group>"; };
+		F2A7A76D179BD4ED00F8AD41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SupportingFiles/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2A7A76F179BD62300F8AD41 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42CEA37617CA2E150016CF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CEA37D17CA2E150016CF45 /* Cocoa.framework in Frameworks */,
+				42CEA38D17CA37250016CF45 /* MIDIEngine.framework in Frameworks */,
+				42CEA38C17CA33000016CF45 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A7A725179BD25400F8AD41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A7A72D179BD25400F8AD41 /* Cocoa.framework in Frameworks */,
+				F2A7A770179BD62300F8AD41 /* CoreMIDI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CEA37E17CA2E150016CF45 /* MIDIEngineTest_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				42CEA38417CA2E150016CF45 /* MIDIEngineTest_Mac.h */,
+				42CEA38517CA2E150016CF45 /* MIDIEngineTest_Mac.m */,
+				42CEA37F17CA2E150016CF45 /* Supporting Files */,
+			);
+			path = MIDIEngineTest_Mac;
+			sourceTree = "<group>";
+		};
+		42CEA37F17CA2E150016CF45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42CEA38017CA2E150016CF45 /* MIDIEngineTest_Mac-Info.plist */,
+				42CEA38117CA2E150016CF45 /* InfoPlist.strings */,
+				42CEA38717CA2E150016CF45 /* MIDIEngineTest_Mac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2A7A71F179BD25400F8AD41 = {
+			isa = PBXGroup;
+			children = (
+				F2A7A759179BD28100F8AD41 /* MIDIEngine */,
+				42CEA37E17CA2E150016CF45 /* MIDIEngineTest_Mac */,
+				F2A7A72B179BD25400F8AD41 /* Frameworks */,
+				F2A7A72A179BD25400F8AD41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2A7A72A179BD25400F8AD41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7A729179BD25400F8AD41 /* MIDIEngine.framework */,
+				42CEA37A17CA2E150016CF45 /* MIDIEngineTest_Mac.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2A7A72B179BD25400F8AD41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7A72C179BD25400F8AD41 /* Cocoa.framework */,
+				F2A7A76F179BD62300F8AD41 /* CoreMIDI.framework */,
+				42CEA38B17CA33000016CF45 /* SenTestingKit.framework */,
+				F2A7A72E179BD25400F8AD41 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2A7A72E179BD25400F8AD41 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7A72F179BD25400F8AD41 /* AppKit.framework */,
+				F2A7A730179BD25400F8AD41 /* CoreData.framework */,
+				F2A7A731179BD25400F8AD41 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F2A7A759179BD28100F8AD41 /* MIDIEngine */ = {
+			isa = PBXGroup;
+			children = (
+				4295DB4417CA44A9009937BE /* MIDIEngineAssignNumbers.h */,
+				4295DB4217CA44A9009937BE /* MIDIDeviceManager.h */,
+				4295DB4317CA44A9009937BE /* MIDIDeviceManager.m */,
+				4295DB4017CA44A9009937BE /* MIDICommunication.h */,
+				4295DB4117CA44A9009937BE /* MIDICommunication.m */,
+				F2A7A760179BD46300F8AD41 /* Supporting Files */,
+			);
+			name = MIDIEngine;
+			sourceTree = "<group>";
+		};
+		F2A7A760179BD46300F8AD41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7A768179BD4E200F8AD41 /* MIDIEngine-Info.plist */,
+				F2A7A769179BD4E200F8AD41 /* MIDIEngine_Mac-Prefix.pch */,
+				F2A7A76C179BD4ED00F8AD41 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F2A7A726179BD25400F8AD41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A7A76B179BD4E200F8AD41 /* MIDIEngine_Mac-Prefix.pch in Headers */,
+				4295DB4517CA44A9009937BE /* MIDICommunication.h in Headers */,
+				4295DB4717CA44A9009937BE /* MIDIDeviceManager.h in Headers */,
+				4295DB4917CA44A9009937BE /* MIDIEngineAssignNumbers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42CEA37917CA2E150016CF45 /* MIDIEngineTest_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CEA38A17CA2E150016CF45 /* Build configuration list for PBXNativeTarget "MIDIEngineTest_Mac" */;
+			buildPhases = (
+				42CEA37517CA2E150016CF45 /* Sources */,
+				42CEA37617CA2E150016CF45 /* Frameworks */,
+				42CEA37717CA2E150016CF45 /* Resources */,
+				42CEA37817CA2E150016CF45 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIDIEngineTest_Mac;
+			productName = MIDIEngineTest_Mac;
+			productReference = 42CEA37A17CA2E150016CF45 /* MIDIEngineTest_Mac.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F2A7A728179BD25400F8AD41 /* MIDIEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A7A753179BD25400F8AD41 /* Build configuration list for PBXNativeTarget "MIDIEngine" */;
+			buildPhases = (
+				F2A7A724179BD25400F8AD41 /* Sources */,
+				F2A7A725179BD25400F8AD41 /* Frameworks */,
+				F2A7A726179BD25400F8AD41 /* Headers */,
+				F2A7A727179BD25400F8AD41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIDIEngine;
+			productName = MIDICommunication_Mac;
+			productReference = F2A7A729179BD25400F8AD41 /* MIDIEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2A7A720179BD25400F8AD41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sh108;
+			};
+			buildConfigurationList = F2A7A723179BD25400F8AD41 /* Build configuration list for PBXProject "MIDIEngine_Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2A7A71F179BD25400F8AD41;
+			productRefGroup = F2A7A72A179BD25400F8AD41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2A7A728179BD25400F8AD41 /* MIDIEngine */,
+				42CEA37917CA2E150016CF45 /* MIDIEngineTest_Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42CEA37717CA2E150016CF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CEA38317CA2E150016CF45 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A7A727179BD25400F8AD41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A7A76E179BD4ED00F8AD41 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42CEA37817CA2E150016CF45 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42CEA37517CA2E150016CF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CEA38617CA2E150016CF45 /* MIDIEngineTest_Mac.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A7A724179BD25400F8AD41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4295DB4617CA44A9009937BE /* MIDICommunication.m in Sources */,
+				4295DB4817CA44A9009937BE /* MIDIDeviceManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42CEA38117CA2E150016CF45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CEA38217CA2E150016CF45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2A7A76C179BD4ED00F8AD41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A7A76D179BD4ED00F8AD41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42CEA38817CA2E150016CF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIDIEngineTest_Mac/MIDIEngineTest_Mac-Prefix.pch";
+				INFOPLIST_FILE = "MIDIEngineTest_Mac/MIDIEngineTest_Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		42CEA38917CA2E150016CF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIDIEngineTest_Mac/MIDIEngineTest_Mac-Prefix.pch";
+				INFOPLIST_FILE = "MIDIEngineTest_Mac/MIDIEngineTest_Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		F2A7A751179BD25400F8AD41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F2A7A752179BD25400F8AD41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F2A7A754179BD25400F8AD41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SupportingFiles/MIDIEngine_Mac-Prefix.pch";
+				INFOPLIST_FILE = "SupportingFiles/MIDIEngine-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		F2A7A755179BD25400F8AD41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SupportingFiles/MIDIEngine_Mac-Prefix.pch";
+				INFOPLIST_FILE = "SupportingFiles/MIDIEngine-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42CEA38A17CA2E150016CF45 /* Build configuration list for PBXNativeTarget "MIDIEngineTest_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CEA38817CA2E150016CF45 /* Debug */,
+				42CEA38917CA2E150016CF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A7A723179BD25400F8AD41 /* Build configuration list for PBXProject "MIDIEngine_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A7A751179BD25400F8AD41 /* Debug */,
+				F2A7A752179BD25400F8AD41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A7A753179BD25400F8AD41 /* Build configuration list for PBXNativeTarget "MIDIEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A7A754179BD25400F8AD41 /* Debug */,
+				F2A7A755179BD25400F8AD41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2A7A720179BD25400F8AD41 /* Project object */;
+}
